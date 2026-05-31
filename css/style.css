@@ -1,0 +1,26 @@
+.container {
+    max-width: 1190px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+.header__top {
+    padding-top: 25px;
+    color: #fff;
+    display: flex;
+    gap: 0 40px;
+    align-items: center;
+}
+
+.header {
+    background-color: #0f0920;
+    min-height: 100vh;
+}
+.menu__list {
+    display: flex;
+    gap: 0 40px;
+}
+.menu__link {
+    font-size: 14px;
+    line-height: 1.14;
+}
