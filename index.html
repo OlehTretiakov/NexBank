@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./css/reset .css">
   <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/media.css">
   <title>NexBank</title>
 </head>
 
@@ -14,9 +15,14 @@
     <div class="container">
       <div class="header__top">
         <a href="#" class="logo">
-          <img src="./images/logo.svg" alt="logo">
+          <img class="logo__img" src="./images/logo.svg" alt="logo">
         </a>
         <nav class="menu">
+          <button class="menu__btn">
+            <span></span>
+            <span></span>
+            <span></span>
+          </button>
           <ul class="menu__list">
             <li class="menu__item"><a href="#" class="menu__link">Services</a></li>
             <li class="menu__item"><a href="#" class="menu__link">Pricing</a></li>
@@ -25,8 +31,42 @@
           </ul>
         </nav>
       </div>
+
+      <div class="header__content">
+        <div class="header__info">
+          <h1 class="header__title">Empowering Your Financial Journey</h1>
+          <p class="header__text">
+            Experience banking like never before with our innovative online platform.
+          </p>
+          <a class="header__content-link" href="#">Get Started</a>
+          <div class="partners">
+            <p class="partners__title">TRUSTED BY</p>
+            <ul class="partners__list">
+              <li class="partners__item">
+                <img class="partners__img" src="./images/dribble.svg" alt="dribble logo">
+              </li>
+              <li class="partners__item">
+                <img class="partners__img" src="./images/hubspot.svg" alt="hubspot logo">
+              </li>
+              <li class="partners__item">
+                <img class="partners__img" src="./images/notion.svg" alt="notion logo">
+              </li>
+              <li class="partners__item">
+                <img class="partners__img" src="./images/netflix.svg" alt="netflix logo">
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header__popup">
+          <button class="header__popup-btn">
+            <img class="header__popup-img" src="./images/popup-btn.svg" alt="">
+          </button>
+        </div>
+      </div>
     </div>
   </header>
+
+  <script src="./js/main.js"></script>
 </body>
 
 </html>
